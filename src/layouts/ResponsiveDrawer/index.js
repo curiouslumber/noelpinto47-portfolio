@@ -7,6 +7,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import SideBar from '../SideBar';
+import Home from '../Home';
 
 const drawerWidth = 300;
 
@@ -105,7 +106,7 @@ function ResponsiveDrawer(props) {
         sx={{ flexGrow: 1, p: 3, width: { sm: `calc(100% - ${drawerWidth}px)` } }}
       >
         <Toolbar />
-        {/* Add main content here */}
+        <Home />
       </Box>
     </Box>
   );
