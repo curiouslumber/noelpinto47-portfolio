@@ -1,11 +1,10 @@
 import './assets/styles/App.css';
+import MainLayout from './layouts/MainLayout';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <MainLayout />
     </div>
   );
 }
