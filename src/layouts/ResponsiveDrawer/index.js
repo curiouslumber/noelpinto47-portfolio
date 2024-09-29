@@ -6,6 +6,7 @@ import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
+import SideBar from '../SideBar';
 
 const drawerWidth = 300;
 
@@ -31,13 +32,6 @@ function ResponsiveDrawer(props) {
       setMobileOpen(!mobileOpen);
     }
   };
-
-  // Drawer content (customize as needed)
-  const drawer = (
-    <div>
-      {/* Add drawer content here */}
-    </div>
-  );
 
   // Sets up the container for rendering based on the window object.
   const container = window !== undefined ? () => window().document.body : undefined;
@@ -89,7 +83,7 @@ function ResponsiveDrawer(props) {
             '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
           }}
         >
-          {drawer}
+          <SideBar />
         </Drawer>
 
         {/* Permanent Drawer for larger screens */}
@@ -101,7 +95,7 @@ function ResponsiveDrawer(props) {
           }}
           open
         >
-          {drawer}
+          <SideBar />
         </Drawer>
       </Box>
 

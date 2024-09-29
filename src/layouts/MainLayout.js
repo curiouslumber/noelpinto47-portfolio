@@ -1,4 +1,4 @@
-import ResponsiveDrawer from "../components/ResponsiveDrawer";
+import ResponsiveDrawer from "./ResponsiveDrawer";
 
 const MainLayout = () => {
 
