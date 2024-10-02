@@ -53,7 +53,7 @@ const Nav = () => {
         <ul className='NavbarLinks'>
             <li onClick={hideMenu}><Link to="/"><AiOutlineHome/> Home </Link></li>
             <li onClick={hideMenu}><Link to="/About"><PiTree/> Skills </Link></li>
-            <li onClick={hideMenu}><Link to="/Project"><AiOutlineFundProjectionScreen/> Projects </Link></li>
+            {/* <li onClick={hideMenu}><Link to="/Project"><AiOutlineFundProjectionScreen/> Projects </Link></li> */}
         </ul>
         
     </nav>
