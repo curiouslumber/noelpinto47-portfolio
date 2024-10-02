@@ -3,7 +3,7 @@ import Lottie from  "lottie-react";
 import SpaceBoy from "../LottieFiles/SpaceBoy.json";
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
-import Avatar from '../images/Avatar.png';
+import Avatar from 'react-avatar';
 import {CiCoffeeCup} from "react-icons/ci";
 
 const Home = () => {
@@ -13,15 +13,13 @@ const Home = () => {
 
         <div className='HomeText'>
           <h1>Hi There!</h1>
-          <h1>I'M <b>DEVANSH SAHNI</b></h1>
+          <h1>I'M <b>NOEL PINTO</b></h1>
           <Typed/>   
         </div>
 
-        <Lottie 
-          className="illustration" 
-          animationData={SpaceBoy} 
-          loop={true} 
-        />
+        <div>
+          <Avatar name="Noel Pinto" size="300" round={true} />
+        </div>
         
       </div>
 
