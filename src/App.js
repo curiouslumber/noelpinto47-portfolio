@@ -21,8 +21,8 @@ function App() {
     setTimeout(()=>{
     SetLoading(false)}
     ,1900)
-  },[])  
-  
+  },[])
+
   return (
     <>
       {Loading ? (

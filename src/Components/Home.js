@@ -18,7 +18,7 @@ const Home = () => {
         </div>
 
         <div>
-          <Avatar name="Noel Pinto" size="300" round={true} />
+          <Avatar src="" name="Noel Pinto" size="300" round={true} />
         </div>
         
       </div>
