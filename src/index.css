@@ -21,13 +21,13 @@
 body{
   font-family: 'Raleway', sans-serif;
   background-color: #031926;
-  color: #E7E7E7;
+  color: #ede4db;
   min-height: 100vh;
 }
 
 b{
   font-weight: 900;
-  color: #9067C6;
+  color: #c7b299;
 }
 
 /* Scrollbar */
@@ -90,7 +90,7 @@ b{
   font-size: 32px;
   letter-spacing: 2px;
   padding-left: 7%;
-  color: #9067C6;
+  color: #c7b299;
   display: flex;
   align-items: center;
   text-align: center;
@@ -112,7 +112,7 @@ b{
 }
 
 .NavbarLinks a{
-  color: #c2c1c2;
+  color: #c7b299;
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -514,4 +514,16 @@ footer h4{
   footer{
     height: 110px;
   }
+}
+
+.download-resume-btn {
+  width: 200px;
+  height: 40px;
+  color: #031926;
+  background-color: #c7b299;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }

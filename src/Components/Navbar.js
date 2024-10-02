@@ -1,10 +1,10 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import {AiOutlineHome} from "react-icons/ai";
+import { AiOutlineHome, AiOutlineFundProjectionScreen } from "react-icons/ai";
 import {BsPerson, BsCodeSlash} from "react-icons/bs";
 import {CgFileDocument} from "react-icons/cg";
-
+import { PiTree } from "react-icons/pi";
 
 const Nav = () => {
     const [navbarblur, setnavbarblur]=useState(false);
@@ -42,7 +42,7 @@ const Nav = () => {
   return (
     <nav className={navbarblur? 'Navbar blur':'Navbar'}> 
  
-        <h1 title='Reload' onClick={()=>window.location.reload(true)} className='Logo'>NP</h1>
+        <h1 title='Reload' onClick={()=>window.location.reload(true)} className='Logo'>Portfolio</h1>
 
         <div className='Hamburger' onClick={showMenu}>
             <span className='bar'></span>
@@ -51,10 +51,9 @@ const Nav = () => {
         </div>
 
         <ul className='NavbarLinks'>
-            <li onClick={hideMenu}><Link to="/"><AiOutlineHome/> Home</Link></li>
-            <li onClick={hideMenu}><Link to="/About"><BsPerson/> About</Link></li>
-            <li onClick={hideMenu}><Link to="/Project"><BsCodeSlash/> Project</Link></li>
-            <li onClick={hideMenu}><Link to="/Resume"><CgFileDocument/> Resume</Link></li>
+            <li onClick={hideMenu}><Link to="/"><AiOutlineHome/> Home </Link></li>
+            <li onClick={hideMenu}><Link to="/About"><PiTree/> Skills </Link></li>
+            <li onClick={hideMenu}><Link to="/Project"><AiOutlineFundProjectionScreen/> Projects </Link></li>
         </ul>
         
     </nav>
