@@ -1,53 +1,13 @@
-<h2 align="center">Personal Portfolio <br/> <a target="_blank" href="https://portfolio-devanshsahni.vercel.app/">devanshsahni</a></h2>
+<h2 align="center">Personal Portfolio <br/> <a target="_blank" href="https://portfolio-noelpinto.vercel.app/">noelpinto</a></h2>
 
 <br/>
 
-## Fork 
-<p>Feel free to fork this repo to modify and make changes of your own. Please give me proper credit by linking it back to this repo. Thanks! 
-  <br/> 
-  The design for this project is inspired by <a href="https://github.com/soumyajit4419/Portfolio">Saumjyajit's portfolio.</a></p>
-
-## About 
-<p>This project is my personal portfolio which features some of my skills, GitHub projects and my resume.</p>
-<p>These technologies are used to build this website:</p>
-<ul>
-  <li>React.js</li>
-  <li>Git</li>
-  <li>npm packages</li>
-  <li>Vercel</li>
-</ul>
-
-<p>Some of the features of this website are:</p>
-<ul>
-  <li>Multi-page layout</li>
-  <li>Fully responsive</li>
-  <li>Preloader</li>
-  <li>Refresh on clicking logo</li>
-</ul>
-
-<p>npm packages used:</p>
-<ul>
-  <li><a target="_blank" href="https://www.npmjs.com/package/lottie-react">lottie-react</a>: For the animations used in the website.</li>
-  <li><a href="https://www.npmjs.com/package/react-spinners">react-spinners</a>: For the preloader animation.</li>
-  <li><a href="https://www.npmjs.com/package/react-icons">react-icons</a>: For all the icons.</li>
-  <li><a href="https://www.npmjs.com/package/typewriter-effect">typewriter-effect</a>: The typing effect on the home page.</li>
-  <li><a href="https://www.npmjs.com/package/react-pdf">react-pdf</a>: To preview the resume pdf</li>
-  <li><a href="https://www.npmjs.com/package/react-parallax-tilt">react-parallax-tilt</a>: To apply tilt hover effect on react components like image and animation.</li>
-</ul>
+About This Project
+<p>This is my personal portfolio website that showcases my skills, GitHub projects, and my professional resume.</p> <p>The following technologies were used to build this website:</p> <ul> <li>React.js</li> <li>Git</li> <li>npm packages</li> <li>Vercel</li> </ul> <p>Key features of this portfolio include:</p> <ul> <li>Multi-page layout</li> <li>Fully responsive design</li> <li>Preloader animation</li> <li>Refresh functionality when clicking the logo</li> </ul> <p>Some of the npm packages used in this project:</p> <ul> <li><a target="_blank" href="https://www.npmjs.com/package/lottie-react">lottie-react</a>: For the animations across the site.</li> <li><a href="https://www.npmjs.com/package/react-spinners">react-spinners</a>: Preloader animation for a smoother user experience.</li> <li><a href="https://www.npmjs.com/package/react-icons">react-icons</a>: To integrate a variety of icons seamlessly.</li> <li><a href="https://www.npmjs.com/package/typewriter-effect">typewriter-effect</a>: For the typewriter effect on the home page.</li> <li><a href="https://www.npmjs.com/package/react-pdf">react-pdf</a>: Allows a live preview of the resume in PDF format.</li> <li><a href="https://www.npmjs.com/package/react-parallax-tilt">react-parallax-tilt</a>: Adds a dynamic tilt hover effect on components such as images and animations.</li> </ul>
 
 
-## Getting started 🛠️
-<p>You need to have git installed on your system to modify this repo.</p>
-<ol>
-  <li>Fork this repo from the fork option on top of my GitHub repo.</li>
-  <li>After completing the fork, move to the copied repo in your account and copy the HTTPS link from the code option.</li>
-  <li>Now in the terminal of your system(in vs code or any third party terminal) cd over to the location where you want to store this project & write, git clone copied link</li>
-  <li>This would create a copy in your local system and link it to the forked repo.</li>
-  <li>Now open this project in your desirable IDE and in the terminal write npm i, this would install all the necessary npm packages.</li>
-  <li>You can write npm start in the terminal to open the project in development mode. Open http://localhost:3000 to view in the browser. This page should reload when you make any changes.</li>
-</ol>
-<p>You can browse the project and make changes according to your will.</p>
+Getting Started 🛠️
+<p>To modify this project, ensure that Git is installed on your system.</p> <ol> <li>Start by forking the repository using the 'Fork' option at the top of my GitHub repo.</li> <li>After forking, navigate to the copied repository in your GitHub account and copy the HTTPS link from the 'Code' dropdown menu.</li> <li>In the terminal of your IDE (e.g., VS Code or any third-party terminal), navigate to the directory where you'd like to store this project and run: `git clone [copied link]`.</li> <li>This command will create a local copy of the project linked to your forked repository.</li> <li>Open the project in your preferred IDE and run `npm install` in the terminal to install all the necessary npm packages.</li> <li>Once the installation is complete, run `npm start` in the terminal to start the project in development mode. Open [http://localhost:3000](http://localhost:3000) in your browser to view it. The page should reload automatically when changes are made.</li> </ol> <p>Feel free to explore and make modifications as per your needs!</p>
+Support
 
-## Support
-<p>Show your support by leaving a star ⭐ on this repo, if you like the website.</p>
-<p>Fell free to point out any bugs🪲 or improvements in the issues tab.</p>
+<p>If you like this project, consider leaving a star ⭐ on the repository to show your support. Your feedback and contributions are always welcome.</p>
