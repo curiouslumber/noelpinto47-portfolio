@@ -1,11 +1,7 @@
 import React from 'react';
-import Lottie from "lottie-react";
-import SpaceBoy from "../LottieFiles/SpaceBoy.json";
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
 import Avatar from 'react-avatar';
-import { CiCoffeeCup } from "react-icons/ci";
-import Skills from './Skills.js';
 
 const Home = () => {
   return (

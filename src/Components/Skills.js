@@ -2,9 +2,8 @@ import React from 'react';
 
 import { CgCPlusPlus, CgFigma, CgMonday } from "react-icons/cg";
 import { FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaBootstrap, FaJava, FaAws, FaNode } from "react-icons/fa";
-import { DiNodejs, DiJavascript1, DiMsqlServer } from "react-icons/di";
-import { SiExpress, SiMongodb, SiPostgresql, SiMysql, SiPostman, SiVercel, SiDotnet, SiFlutter, SiGoland, SiHtml5, SiCss3, SiPhp, SiGooglecloud, SiJira } from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
+import { DiJavascript1, DiMsqlServer } from "react-icons/di";
+import { SiExpress, SiMongodb, SiPostgresql, SiMysql, SiPostman, SiVercel, SiDotnet, SiFlutter, SiHtml5, SiCss3, SiPhp, SiGooglecloud, SiJira } from "react-icons/si";
 import { FaGolang } from "react-icons/fa6";
 
 const Skills = ({ skill }) => {

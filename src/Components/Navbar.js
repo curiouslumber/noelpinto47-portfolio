@@ -1,9 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { AiOutlineHome, AiOutlineFundProjectionScreen } from "react-icons/ai";
-import {BsPerson, BsCodeSlash} from "react-icons/bs";
-import {CgFileDocument} from "react-icons/cg";
+import { AiOutlineHome } from "react-icons/ai";
 import { PiTree } from "react-icons/pi";
 
 const Nav = () => {
