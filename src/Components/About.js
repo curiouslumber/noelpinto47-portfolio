@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <div className="AboutPage">
-      <h1 className='SkillsHeading'>Professional Skillset</h1>
+      <h1 className='SkillsHeading' style={{ marginTop: "3%" }}>Professional Skillset</h1>
       <div className='skills'>
         <Skills skill='Flutter' />
         <Skills skill='React.js' />

@@ -21,7 +21,7 @@ const Home = () => {
             onClick={() => {
               const link = document.createElement('a');
               link.href = 'files/Resume.pdf';
-              link.download = 'NoelPinto-Resume-SoftwareEngineer.pdf';
+              link.download = 'Noel_Pinto_Software_Engineer_Resume.pdf';
               link.click();
             }}
           >
